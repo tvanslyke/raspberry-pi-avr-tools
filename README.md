@@ -7,7 +7,7 @@ This script installs `avrdude`, `arduino`, `avr-gcc-8.2`, `avr-binutils-2.31`, a
 This script only needs to be run once.
 
 ## `new_project.sh`
-After all the necessary tools have been installed with `install.sh`, the `new_project.sh` script can be used to set up a new makefile Arduino.
+After all the necessary tools have been installed with `install.sh`, the `new_project.sh` script can be used to set up a new makefile Arduino project.
 
 Example:
 ```sh
