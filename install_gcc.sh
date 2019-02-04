@@ -6,3 +6,4 @@ make -j 4 all-gcc
 make -j 4 all-target-libgcc
 sudo make install-gcc
 sudo make install-target-libgcc
+cd ..
