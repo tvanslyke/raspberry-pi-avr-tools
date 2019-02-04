@@ -2,7 +2,7 @@
 These scripts can be use to install the necessary tools for cross-platform AVR development on the Raspberry Pi.  
 
 ## `install.sh`
-This script installs `avrdude`, `arduino`, `avr-gcc-8.2`, `avr-binutils-2.31`, and `avr-libc-2.0.0`.  `avr-gcc-8.2`, `avr-binutils-2.31`, and `avr-libc-2.0.0` are compiled from source and will take a fairly long time to build.  `avr-gcc-8.2` in particular will take the longest.  You'll need to your `sudo` password at several points during the process.
+This script installs `avrdude`, `arduino`, `avr-gcc-8.2`, `avr-binutils-2.31`, and `avr-libc-2.0.0`.  `avr-gcc-8.2`, `avr-binutils-2.31`, and `avr-libc-2.0.0` are compiled from source and will take a fairly long time to build.  `avr-gcc-8.2` in particular will take the longest.  You'll need to enter your `sudo` password at several points during the process.
 
 This script only needs to be run once.
 
