@@ -1,3 +1,4 @@
+sudo apt-get install libgmp-dev libmpfr-dev libmpc-dev
 tar -xf gcc-8.2.0.tar.xz
 mkdir build-gcc
 cd build-gcc
