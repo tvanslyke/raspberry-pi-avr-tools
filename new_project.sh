@@ -47,9 +47,7 @@ echo "release/firmware.hex: release/firmware.elf
 build_firmware:
 	cd src/ && \$(MAKE)
 
-src/firmware.elf: build_firmware
-
-release/firmware.elf: src/firmware.elf
+release/firmware.elf: build_firmware
 	cp src/firmware.elf release/firmware.elf
 
 arduino/libarduino.a: ./arduino/*.h ./arduino/*.cpp ./arduino/*.c
